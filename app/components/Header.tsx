@@ -5,7 +5,7 @@ import '@/app/styles/styles.css';
 
 const Header: React.FC = () => {
   return (
-    <div className="header">
+    <div className="headerr">
       <h1 className='h11' >Green Guard</h1>
       <Image  className="leaff"src={leaf} alt="Leaf" width={60} height={60} />
     </div>

@@ -5,8 +5,8 @@ import '@/app/styles/styles.css';
 
 const Screenshot: React.FC = () => {
   return (
-    <div className="screenshot-container">
-      <Image src={screenshot} alt="Screenshot" width={500} height={300} />
+    <div className="mapp">
+      <Image src={screenshot} alt="Screenshot"/>
     </div>
   );
 };

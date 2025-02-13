@@ -3,15 +3,15 @@ import '@/app/styles/styles.css';
 
 interface CardProps {
   title: string;
-  count: number;
+  count: string;
+  className?: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, count }) => {
+const Card: React.FC<CardProps> = ({ title, count,className }) => {
   return (
-    <div className={`card ${title.toLowerCase()}`}>
-      <h2>{title}</h2>
-      <p>Issues</p>
-      <span>{count}</span>
+    <div className={`cardd ${className}`}>
+      <p className='ca'> Issues {title}</p>
+      <span className='nc'>{count}</span>
     </div>
   );
 };

@@ -1,17 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 .h11{
+  background: none;
   position: absolute;
   top: 5px;
-  left: 85px;
-  font: 'Space Grotex';
+  left: 150px;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
   font-size: 33px;
   line-height: 45.94px;
 }
 
 .leaff{
+  background: none;
   position:absolute;
-   left: 35px;
+   left: 95px;
     top: 27px;
     width: 45px;
     height: 45px;
   }
+  .headerr{
+    background: none;
+    padding-right: 17px;
+    padding-bottom: 9px;
+  }
+  .navbarr {
+    background: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    top: 19px;
+    left: 580px;
+
+  }
+  
+  .navbarr ul {
+    background: none;
+    display: flex;
+    gap: 30px; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbarr li {
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400px;
+    line-height: 28px;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .mapp
+  {
+    background-size: contain;
+    background: none;
+    border-radius: 30px;
+    height: 455px;
+    left: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    width: 1240px;
+    object-fit: contain;
+  }
+
+  .cardd {
+    background: none;
+    background-color: #F3F3F3;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 5px 5px 0px #191a23;
+    height: 206px;
+    left: 95px;
+    overflow: hidden;
+    display: flex;
+    float: left;
+    position: relative; /* Change to relative */
+    top: 560px;
+    width: 600px;
+    margin-right: 15px;
+
+  }
+  
+  .ca{
+    background: none;
+    width: 113px;
+    height: 85px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    font-family: 'Space Grotesk', sans-serif; /* or replace with the 'cc' font */
+    font-weight: 500;
+    font-size: 33px;
+    padding-left: 5px;
+    }
+    
+    .nc{
+    background: none;
+    position: absolute;
+    top: 25px;
+    left: 350px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 128px;
+    }
+
+    .cal{
+      background-color: #9effa1;
+      position: relative;
+      left:110px;
+    }
