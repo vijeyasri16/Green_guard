@@ -1,0 +1,17 @@
+.h11{
+  position: absolute;
+  top: 5px;
+  left: 85px;
+  font: 'Space Grotex';
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 45.94px;
+}
+
+.leaff{
+  position:absolute;
+   left: 35px;
+    top: 27px;
+    width: 45px;
+    height: 45px;
+  }
