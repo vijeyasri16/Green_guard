@@ -1,4 +1,4 @@
-.h11 {
+/* .h11 {
   background: none;
   position: absolute;
   top: 5px;
@@ -48,7 +48,7 @@
   background: none;
   font-size: 20px;
   cursor: pointer;
-  font-weight: 400; /* Fixed font-weight */
+  font-weight: 400;
   line-height: 28px;
   font-family: 'Space Grotesk', sans-serif;
   padding-left: 30px;
@@ -118,6 +118,138 @@
   background-color: #9effa1;
   position: relative;
   left: 110px;
+} 
+.hamburger {
+  font-size: 34px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 14px;
+  left: 295px;
+  display: none;
+}*/
+.h11 {
+  background: none;
+  position: absolute;
+  top: 1vw;
+  left: 10.8vw;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 2.3vw;
+  line-height: 2.4vw;
+}
+
+.leaff {
+  background: none;
+  position: absolute;
+  left: 7vw;
+  top: 2.2vw;
+  width: 3vw;
+  height: 3vw;
+}
+
+.headerr {
+  background: none;
+  padding-right: 0.89vw;
+  padding-bottom: 0.47vw;
+}
+
+.navbarr {
+  background: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 1.04vw;
+  position: absolute;
+  top: 2.24vw;
+  left: 43.71vw;
+}
+
+.navbarr ul {
+  background: none;
+  display: flex;
+  gap: 1.56vw;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarr li {
+  background: none;
+  font-size: 1.5vw;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 1.46vw;
+  font-family: 'Space Grotesk', sans-serif;
+  padding-left: 1.56vw;
+  padding-right: 1.56vw;
+}
+
+.mapp {
+  background-size: contain;
+  background: none;
+  border-radius: 1.56vw;
+  height: 32.3vw;
+  left: 7vw;
+  overflow: hidden;
+  position: absolute;
+  top: 7.81vw;
+  width: 86vw;
+  object-fit: contain;
+}
+
+.cardd {
+  background: none;
+  background-color: #F3F3F3;
+  border: 0.05vw solid;
+  border-radius: 2.34vw;
+  box-shadow: 0.26vw 0.26vw 0vw #191a23;
+  height: 13vw;
+  left: 6.5vw;
+  overflow: hidden;
+  display: flex;
+  float: left;
+  position: relative;
+  top: 40.56vw;
+  width: 42vw;
+  margin-right: 0.78vw;
+}
+
+.ca {
+  background: none;
+  width: 5.89vw;
+  height: 4.43vw;
+  display: inline-block;
+  position: relative;
+  left: 6.71vw;
+  top: 1vw;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 2.32vw;
+  padding-left: 0.26vw;
+}
+
+.nc {
+  background: none;
+  position: absolute;
+  top: 1vw;
+  left: 25.23vw;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 8.6vw;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.56vw;
+}
+
+.cal {
+  background-color: #9effa1;
+  position: relative;
+  left: 7.5vw;
 }
 .hamburger {
   font-size: 34px;
