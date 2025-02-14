@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
+
 import Navbar from '@/app/components/Navbar';
 import Header from '@/app/components/Header';
 import Card from '@/app/components/Card';

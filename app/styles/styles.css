@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-
-.h11{
+.h11 {
   background: none;
   position: absolute;
   top: 5px;
@@ -11,108 +9,219 @@
   line-height: 45.94px;
 }
 
-.leaff{
+.leaff {
   background: none;
-  position:absolute;
-   left: 95px;
-    top: 27px;
-    width: 45px;
-    height: 45px;
-  }
-  .headerr{
-    background: none;
-    padding-right: 17px;
-    padding-bottom: 9px;
-  }
-  .navbarr {
-    background: none;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    padding: 20px;
-    position: absolute;
-    top: 19px;
-    left: 580px;
+  position: absolute;
+  left: 95px;
+  top: 27px;
+  width: 45px;
+  height: 45px;
+}
 
+.headerr {
+  background: none;
+  padding-right: 17px;
+  padding-bottom: 9px;
+}
+
+.navbarr {
+  background: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 19px;
+  left: 580px;
+}
+
+.navbarr ul {
+  background: none;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarr li {
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 400; /* Fixed font-weight */
+  line-height: 28px;
+  font-family: 'Space Grotesk', sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.mapp {
+  background-size: contain;
+  background: none;
+  border-radius: 30px;
+  height: 455px;
+  left: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+  width: 1240px;
+  object-fit: contain;
+}
+
+.cardd {
+  background: none;
+  background-color: #F3F3F3;
+  border: 1px solid;
+  border-radius: 45px;
+  box-shadow: 5px 5px 0px #191a23;
+  height: 206px;
+  left: 95px;
+  overflow: hidden;
+  display: flex;
+  float: left;
+  position: relative;
+  top: 560px;
+  width: 600px;
+  margin-right: 15px;
+}
+
+.ca {
+  background: none;
+  width: 113px;
+  height: 85px;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  top: 25px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 33px;
+  padding-left: 5px;
+}
+
+.nc {
+  background: none;
+  position: absolute;
+  top: 25px;
+  left: 350px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 128px;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+}
+
+.cal {
+  background-color: #9effa1;
+  position: relative;
+  left: 110px;
+}
+.hamburger {
+  font-size: 34px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 14px;
+  left: 19px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .h11 {
+    top: 10px;
+    left: 105px;
+    font-size: 28px;
+    line-height: 35px;
   }
+
+  .leaff {
+    left: 65px;
+    top: 29px;
+    width: 35px;
+    height: 35px;
+  }
+    .navbarr {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
   
-  .navbarr ul {
-    background: none;
-    display: flex;
-    gap: 30px; 
-    list-style: none; 
-    padding: 0;
-    margin: 0;
-  }
+    .navbarr {
+      background-image:  url('/desktop-1.svg');
+      background-blend-mode: color;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 70px;
+      left: 32px;
+      padding: 10px;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      z-index: 1000;
+    }
   
-  .navbarr li {
-    background: none;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: 400px;
-    line-height: 28px;
-    font-family: 'Space Grotesk', sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .mapp
-  {
-    background-size: contain;
-    background: none;
-    border-radius: 30px;
-    height: 455px;
-    left: 100px;
-    overflow: hidden;
+    .navbarr.active {
+      display: flex;
+    }
+  
+    .navbarr ul {
+      flex-direction: column;
+      gap: 15px;
+      list-style: none;
+      padding: 0;
+    }
+  
+    .navbarr li {
+      font-size: 18px;
+      padding: 5px 0;
+      cursor: pointer;
+    }
+  
+  .mapp {
+    width: 300px;
+    height: 200px;
+    left: 33px;
+    top: 80px;
+    border-radius: 15px;
     position: absolute;
-    top: 100px;
-    width: 1240px;
-    object-fit: contain;
+    z-index: 1;
   }
 
   .cardd {
-    background: none;
-    background-color: #F3F3F3;
-    border: 1px solid;
-    border-radius: 45px;
-    box-shadow: 5px 5px 0px #191a23;
-    height: 206px;
-    left: 95px;
-    overflow: hidden;
-    display: flex;
-    float: left;
-    position: relative; /* Change to relative */
-    top: 560px;
-    width: 600px;
-    margin-right: 15px;
-
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    top: 260px;
+    left: 10px;
+    margin: 10px;
   }
-  
-  .ca{
-    background: none;
-    width: 113px;
-    height: 85px;
-    display: inline-block;
-    position: relative;
-    left: 100px;
-    top: 25px;
-    font-family: 'Space Grotesk', sans-serif; /* or replace with the 'cc' font */
-    font-weight: 500;
-    font-size: 33px;
-    padding-left: 5px;
-    }
-    
-    .nc{
-    background: none;
-    position: absolute;
-    top: 25px;
-    left: 350px;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 400;
-    font-size: 128px;
-    }
 
-    .cal{
-      background-color: #9effa1;
-      position: relative;
-      left:110px;
-    }
+  .ca {
+    width: 50%;
+    left: 0;
+    text-align: center;
+  }
+
+  .nc {
+    position: relative;
+    top: -106px;
+    left: 80px;
+    text-align: center;
+    font-size: 90px;
+  }
+
+  .cal {
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    top: 252px;
+    left: 10px;
+    margin-top: 10px;
+  }
+}
