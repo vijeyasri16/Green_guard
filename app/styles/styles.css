@@ -127,20 +127,20 @@
   padding: 10px;
   position: absolute;
   top: 14px;
-  left: 19px;
+  left: 295px;
   display: none;
 }
 
 @media (max-width: 768px) {
   .h11 {
     top: 10px;
-    left: 105px;
+    left: 75px;
     font-size: 28px;
     line-height: 35px;
   }
 
   .leaff {
-    left: 65px;
+    left: 35px;
     top: 29px;
     width: 35px;
     height: 35px;
@@ -158,9 +158,9 @@
       flex-direction: column;
       align-items: flex-start;
       position: absolute;
-      top: 70px;
-      left: 32px;
-      padding: 10px;
+      top: 74px;
+      left: 150px;
+      padding: 5px;
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
       border-radius: 15px;
       z-index: 1000;
@@ -180,6 +180,8 @@
     .navbarr li {
       font-size: 18px;
       padding: 5px 0;
+      padding-left: 15px;
+      padding-right: 15px;
       cursor: pointer;
     }
   
@@ -195,22 +197,25 @@
 
   .cardd {
     width: 300px;
-    height: 200px;
+    height: 170px;
     flex-direction: column;
-    top: 260px;
+    top: 265px;
     left: 10px;
     margin: 10px;
   }
 
   .ca {
     width: 50%;
+    position: relative;
+    top: 7px;
     left: 0;
     text-align: center;
+    text-wrap: wrap;
   }
 
   .nc {
     position: relative;
-    top: -106px;
+    top: -123px;
     left: 80px;
     text-align: center;
     font-size: 90px;
@@ -218,9 +223,9 @@
 
   .cal {
     width: 300px;
-    height: 200px;
+    height: 170px;
     flex-direction: column;
-    top: 252px;
+    top: 260px;
     left: 10px;
     margin-top: 10px;
   }
