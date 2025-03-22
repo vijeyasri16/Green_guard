@@ -290,9 +290,9 @@
       flex-direction: column;
       align-items: flex-start;
       position: absolute;
-      top: 74px;
-      left: 150px;
-      padding: 5px;
+      top: 77px;
+      left: 139px;
+      padding: 10px;
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
       border-radius: 15px;
       z-index: 1000;
@@ -311,7 +311,7 @@
   
     .navbarr li {
       font-size: 18px;
-      padding: 5px 0;
+      padding: 15px;
       padding-left: 15px;
       padding-right: 15px;
       cursor: pointer;
@@ -329,11 +329,14 @@
 
   .cardd {
     width: 300px;
-    height: 170px;
+    height: 190px;
     flex-direction: column;
-    top: 265px;
-    left: 10px;
+    top: 280px;
+    left: 14px;
     margin: 10px;
+    border-radius: 40px;
+    box-shadow:4px 4px 0;
+
   }
 
   .ca {
@@ -343,11 +346,13 @@
     left: 0;
     text-align: center;
     text-wrap: wrap;
+    font-size: 35px;
   }
+
 
   .nc {
     position: relative;
-    top: -123px;
+    top: -55px;
     left: 80px;
     text-align: center;
     font-size: 90px;
@@ -355,10 +360,11 @@
 
   .cal {
     width: 300px;
-    height: 170px;
+    height: 190px;
     flex-direction: column;
-    top: 260px;
-    left: 10px;
+    top: 280px;
+    left: 11px;
     margin-top: 10px;
+    padding-left: 10px;
   }
 }
